@@ -1,0 +1,41 @@
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("img/1.jpg");
+    height: 100vh;
+  }
+  .w3-text-white{
+      background-color: rgb(8, 8, 8, 0.5);
+  }
+.intro{
+    margin-bottom: 130px;
+    font-size: 18px;
+}

@@ -1,0 +1,95 @@
+
+/* Container
+===================*/
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+.intro{
+    margin-bottom: 130px;
+    font-size: 18px;
+}
+.reviews {
+    overflow: hidden;
+    background-color: #0c0808;
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+
+.reviews__img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+
+.reviews__text {
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #fff;
+    text-align: justify;
+    margin: 25px auto;
+    max-width: 300px;
+}
+.ingrid{
+    font-size: 30px;
+}
+.zanryy{
+    font-size: 26px;
+}
+.info {
+    width: auto;
+    background-color: white;
+}
+
+.abouut{
+    margin: 150px auto;
+    text-align: justify;
+}
+
+.about_text {
+    color: #333;
+    font-size: 18px;
+    max-width: 1200px;
+}
